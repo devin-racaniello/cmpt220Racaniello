@@ -28,7 +28,7 @@ public class SevenPointFour {
 			i++;
 		}
 		
-		average = total / i;
+		average = total / i; // JA: This division has to be non-integer
 		
 		for (int j = 0; j < i; j++) {
 			if (myArray[j] >= average) {
