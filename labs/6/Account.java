@@ -1,5 +1,6 @@
 //Devin Racaniello
 import java.util.Date;
+// JA: Always add comments to your code
 public class Account {
 	private int id;
 	private double balance;
@@ -65,7 +66,7 @@ public class Account {
 	}
 	
 	public void deposit(double money) {
-		balance -= money;
+		balance -= money; // JA balance += money
 	}
 	
 	
