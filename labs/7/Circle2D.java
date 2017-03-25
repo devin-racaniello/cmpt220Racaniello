@@ -44,7 +44,7 @@ public class Circle2D {
 	}
 	
 	public boolean contains(Circle2D circle) {
-		boolean isContain = Math.sqrt(Math.pow(circle.getX() - x, 2) + Math.pow(circle.getY() - y, 2)) <= Math.abs(radius - circle.getRadius());
+		boolean isContain = Math.sqrt(Math.pow(circle.getX() - x, 2) + Math.pow(circle.getY() - y, 2)) <= radius - circle.getRadius(); // JA: It should be a straight difference
 		return isContain;
 	}
 	
