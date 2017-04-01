@@ -26,7 +26,7 @@ public class ElevenPointSeventeen {
 			else
 				index++; 
 		}
-		myList.add(number);
+		myList.add(number); 
 		
 		
 		for (int i = 0; i < myList.size(); i++) {

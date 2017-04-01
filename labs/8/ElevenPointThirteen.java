@@ -23,6 +23,7 @@ public class ElevenPointThirteen {
 
 	}
 	
+	// JA: A better approach is to replicate the arraylist without the duplicates
 	public static void removeDuplicate(ArrayList<Integer> list) {
 		for (int i = 0; i < list.size(); i++) {
 			// only checks for another after the initial
