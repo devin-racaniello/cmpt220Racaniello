@@ -1,4 +1,5 @@
 
+// JA: You need a test class to test this
 public class Triangle extends GeometricObject {
 	
 	private double side1;
@@ -11,6 +12,7 @@ public class Triangle extends GeometricObject {
 		side1 = 1.0;
 	}
 	
+	// JA: This should throw an exception
 	Triangle(double side1, double side2, double side3) {
 		this.side1 = side1;
 		this.side2 = side2;
